@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/971/967/737/sports-images-for-desktop-background-wallpaper-preview.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.tabel-sport {
+  margin: auto;
+  background-color: white;
+  color: black;
+  border-collapse: collapse;
+  width: 60%;
+  margin-top: 20px;
+}
+
+.tabel-sport th,
+.tabel-sport td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.tabel-sport th {
+  background-color: #ddd;
+}
